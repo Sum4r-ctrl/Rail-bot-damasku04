@@ -7,7 +7,7 @@ import ccxt
 MARGEM_INICIAL = 2
 SEQUENCIA = [MARGEM_INICIAL * (2**i) for i in range(10)] # 2,4,8,16...1024
 ALAVANCAGEM = 50
-SL_SALDO = 0.10
+SL_SALDO = 0.30
 TP_SALDO = 2.00
 
 # ROBUSTEZ -
