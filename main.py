@@ -2,6 +2,9 @@
 import time
 import os
 import ccxt
+from dotenv import load_dotenv
+load_dotenv()
+
 
 # CONFIG BASE - INTACTO
 MARGEM_INICIAL = 2
